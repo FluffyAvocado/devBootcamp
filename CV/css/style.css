@@ -23,8 +23,15 @@ h3 {
 p {
     font-family: 'Lato', sans-serif;
 }
+
 img {
     border-radius: 50%;
+    block-size: 15%;
+}
+
+img:hover {
+    border-radius: 50%;
+    block-size: 35%;
 }
 
 .list {
