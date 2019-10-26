@@ -1,27 +1,195 @@
 body {
     background-color: #f6f6f6;
     margin: 0px;
+    text-align: center;
+    font-family: "Merriweather", sans-serif;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-size: 550%;
+    color: #ffffff;
+    line-height: 2;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #c06c84;
+    line-height: 2
+}
+
+#subtitle {
+    color: white;
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.3rem;
+    color: #c06c84;
+}
+
+p {
+    color: #2d4059;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    border-style: dotted none none none;
+    border-top-width: 6px;
+    border-color: rgb(206, 206, 206);
+    max-width: 50px;
+    margin: 80px auto;
+
+}
+
+.profilepic {
+    margin: 100px 0 0 0;
+    border-radius: 100%;
+    max-width: 250px;
+}
+
+.skillpic {
+    max-width: 25%;
+    float: left;
+    margin: 0 30px 100px 0; 
+    padding-top: 20px;
+}
+
+.skillpic2 {
+    max-width: 25%;
+    float: right;
+    margin: 0 0 0 30px; 
+    padding-top: 20px;
 }
 
 .top-container {
-    background-color: white;
-    padding: 20px;
-    margin: 20px;
+    padding-top: 100px;
+    position: relative;
+    background-image: linear-gradient(#6c5b7b, #c06c84);
 }
 
-.mid-container {
-    height: 200px;
-    width: 200px;
-    background-color: teal;
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
 }
+
+.bottom-cloud {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+p.profile {
+    line-height: 2;
+    display: inline-block;
+    margin: 0px auto;
+}
+
+.skill-row {
+    max-width: 54%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.contact-me {
+    line-height: 2;
+}
+
+
+
+
+
+
+
+/* Bottom Container*/
 
 .bottom-container {
-    height: 200px;
-    width: 200px;
-    background-color: orange;
+    background-color: #8785a2;
+    padding: 30px;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 20px 20px;
+
+}
+
+#copyright {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+.freepic {
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+a.footer-link {
+    color: #2d4059;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
 }
 
 
-h1 {
-    margin: 0px;
+
+
+
+
+/* Unnecessarily large piece of code for a button */
+
+.button {
+    margin: 30px auto 100px auto;
+    backface-visibility: hidden;
+    padding: 20px;
+
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: #f67280;
+    border-radius: 50px;
+    border: 0px solid #ffffff;
+    border-width: 0px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 0px 0px 0px #000000, 0px 1px 3px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4)
+}
+
+.button>div {
+    color: #999;
+    font-size: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: initial;
+    font-style: normal;
+    text-align: center;
+    margin: 0px 0px 0px 0px
+}
+
+.button>i {
+    font-size: 1em;
+    border-radius: 0px;
+    border: 0px solid transparent;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    position: static
+}
+
+.button>.ld {
+    font-size: initial
 }
