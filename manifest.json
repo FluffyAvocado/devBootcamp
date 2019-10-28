@@ -1,0 +1,7 @@
+{
+  "name": "Andrey's Personal Page",
+  "short_name": "ANDREY",
+  "gcm_sender_id": "554873303610",
+  "display": "standalone",
+  "gcm_user_visible_only": true
+}
