@@ -43,7 +43,7 @@ hr {
     border-style: dotted none none none;
     border-top-width: 6px;
     border-color: rgb(206, 206, 206);
-    max-width: 50px;
+    width: 4%;
     margin: 80px auto;
 
 }
@@ -90,6 +90,7 @@ p.profile {
     line-height: 2;
     display: inline-block;
     margin: 0px auto;
+    width: 40%;
 }
 
 .skill-row {
@@ -101,6 +102,8 @@ p.profile {
 
 .contact-me {
     line-height: 2;
+    width: 40%;
+    margin: auto;
 }
 
 
@@ -122,16 +125,12 @@ p.profile {
 
 }
 
-#copyright {
+.copyright {
     color: #fff;
     font-family: "Montserrat", sans-serif;
+    text-decoration: none;
     font-size: 12px;
-}
-
-.freepic {
     padding: 10px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 12px;
 }
 
 a.footer-link {
@@ -140,7 +139,11 @@ a.footer-link {
     font-family: "Montserrat", sans-serif;
 }
 
-
+a.footer-link:hover {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
 
 
 
